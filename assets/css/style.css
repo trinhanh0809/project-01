@@ -169,6 +169,7 @@ padding: 43px 0 64px;
 	align-items: center;
 }
 
+
 /* =========== Guides =========== */
 .guides {
 	margin-top: 40px;
@@ -610,7 +611,12 @@ padding: 43px 0 64px;
 	width: 28px;
 	height: 28px;
 	border-radius: 3px;
+	background: #f9f9f9;
 
+}
+
+.footer .social-link + .social-link {
+	margin-left: 16px;
 }
 
 .footer .social-link:hover {
