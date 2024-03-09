@@ -63,7 +63,7 @@ overflow: hidden;
 	background: #E6F0FF;
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: calc(100vh - 90px);
 	position: relative;
 }
 
