@@ -6,6 +6,10 @@
 	--primary-color:#0F1B4C;
 }
 
+html, body {
+	scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -62,6 +66,7 @@ overflow: hidden;
 .hero-wrap {
 	background: #E6F0FF;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	height: calc(100vh - 90px);
 	position: relative;
